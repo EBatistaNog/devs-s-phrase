@@ -1,0 +1,85 @@
+/* 🌌 Container geral */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ac3131;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  padding-inline: 16px;
+  box-sizing: border-box;
+}
+
+/* 🎨 Logo */
+.logo {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+}
+
+/* 📝 Título */
+.title {
+  color: #ffffff;
+  margin: 14px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 🧭 Botões de categoria */
+.category-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 34px;
+  justify-content: center;
+}
+
+.category-button {
+  padding: 6px 14px;
+  border-radius: 6px;
+  background-color: #ffffff10;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.category-button:hover {
+  background-color: #1fa4db20;
+  border-color: #1fa4db;
+}
+
+/* 🎯 Botão gerar frase */
+.button-frase {
+  background-color: #1fa4db;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-frase:hover {
+  background-color: #1789b8;
+}
+
+/* 💬 Texto da frase */
+.textoFrase {
+  width: 100%;
+  max-width: 420px;
+  background-color: #fafafa;
+  border-radius: 6px;
+  text-align: center;
+  padding: 16px 24px;
+  margin: 24px 0 16px 0;
+  line-height: 1.5;
+  color: #dd7b22;
+  font-style: italic;
+  font-size: 18px;
+  box-shadow: 0 4px 12px #00000020;
+  word-break: break-word;
+}
