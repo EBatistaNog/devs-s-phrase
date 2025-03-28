@@ -5,6 +5,6 @@ Projeto inspirado e iniciado a partir do curso: Sujeito Programador https://suje
 ## Rodar o projeto
 ```bash
 git clone https://github.com/EBatistaNog/dev-frases.git
-cd
+cd devs-s-phrase
 npm install
 npm run dev
